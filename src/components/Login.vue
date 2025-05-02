@@ -47,8 +47,8 @@ export default {
     return {
       //登录表单
       loginForm: {
-        username: "相思断红肠",
-        password: "123456",
+        username: "",
+        password: "",
       },
 
       //登录表单规则的验证对象
@@ -88,7 +88,7 @@ export default {
         }
         this.loginLoading = true;
         // 进行md5加密
-        const salt = "xiaobaitiao";
+        const salt = "banmeng";
         const username = this.loginForm.username;
         const password = this.loginForm.password;
         //向数据库发送axios请求，如果登录成功，就跳转
@@ -135,7 +135,7 @@ export default {
 
 .login_container {
   // background-color: #2b4b6b;
-  background: url(https://xxx.xiaobaitiao.icu/img/icu/202312211236280.jpg) no-repeat 0px 0px;
+  background: url(../assets/images/background.jpg) no-repeat 0px 0px;
   background-size: cover;
   height: 100%;
 }

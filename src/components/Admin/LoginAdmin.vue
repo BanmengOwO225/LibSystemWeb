@@ -4,7 +4,7 @@
     <div class="login_box">
       <!-- 头像区域 -->
       <div class="avatar_box">
-        <img src="https://xxx.xiaobaitiao.icu/img/icu/202312211243634.jpg" alt=""/>
+        <img src="../../assets/images/admin.jpg" alt=""/>
       </div>
       <!-- 登录表单区域 -->
       <el-form
@@ -74,8 +74,8 @@ export default {
     return {
       //登录表单
       loginForm: {
-        username: "root",
-        password: "123456",
+        username: "",
+        password: "",
       },
       //登录表单规则的验证对象
       loginFormRules: {
@@ -156,7 +156,7 @@ export default {
 
 .login_container {
   // background-color: #2b4b6b;
-  background: url(https://xxx.xiaobaitiao.icu/img/icu/202312211236280.jpg) no-repeat 0px 0px;
+  background: url(../../assets/images/background.jpg) no-repeat 0px 0px;
   background-size: cover;
   height: 100%;
 }
@@ -170,6 +170,7 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  opacity: 0.7;
 
   .avatar_box {
     width: 130px;

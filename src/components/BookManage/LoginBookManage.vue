@@ -81,8 +81,8 @@ export default {
     return {
       //登录表单
       loginForm: {
-        username: "admin",
-        password: "123456",
+        username: "",
+        password: "",
       },
       //登录表单规则的验证对象
       loginFormRules: {
@@ -166,7 +166,7 @@ export default {
 
 .login_container {
   // background-color: #2b4b6b;
-  background: url(https://xxx.xiaobaitiao.icu/img/icu/202312211236280.jpg) no-repeat
+  background: url(../../assets/images/background.jpg) no-repeat
     0px 0px;
   background-size: cover;
   height: 100%;
