@@ -229,7 +229,7 @@ export default {
     //监听修改对话框的关闭，一旦对话框关闭，就重置表单，回显数据
     editDialogClosed() {
       this.$refs.editFormRef.resetFields();
-      this.editForm.checkList = ["南图", "北图", "教师之家"];
+      this.editForm.checkList = ["南区", "北区"];
     },
     //删除公告
     async removeUserById(id) {

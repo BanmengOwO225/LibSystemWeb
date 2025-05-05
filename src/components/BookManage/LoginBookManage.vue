@@ -5,7 +5,7 @@
       <!-- 头像区域 -->
       <div class="avatar_box">
         <img
-          src="https://xxx.xiaobaitiao.icu/img/icu/202312211243634.jpg"
+          src="../../assets/images/book_manager.jpg"
           alt=""
         />
       </div>

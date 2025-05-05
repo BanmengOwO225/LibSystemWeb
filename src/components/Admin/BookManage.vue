@@ -106,9 +106,8 @@
           </el-form-item>
           <el-form-item label="图书馆">
             <el-radio-group v-model="editForm.bookLibrary">
-              <el-radio-button label="南图"></el-radio-button>
-              <el-radio-button label="北图"></el-radio-button>
-              <el-radio-button label="教师之家"></el-radio-button>
+              <el-radio-button label="南区"></el-radio-button>
+              <el-radio-button label="北区"></el-radio-button>
             </el-radio-group>
           </el-form-item>
           <el-form-item label="分类">
@@ -146,9 +145,8 @@
           </el-form-item>
           <el-form-item label="图书馆">
             <el-radio-group v-model="addForm.bookLibrary">
-              <el-radio-button label="南图"></el-radio-button>
-              <el-radio-button label="北图"></el-radio-button>
-              <el-radio-button label="教师之家"></el-radio-button>
+              <el-radio-button label="南区"></el-radio-button>
+              <el-radio-button label="北区"></el-radio-button>
             </el-radio-group>
           </el-form-item>
           <el-form-item label="分类">

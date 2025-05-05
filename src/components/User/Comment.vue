@@ -2,7 +2,7 @@
   <div class="comment_container">
     <div class="backgroundImg">
       <img
-        src="https://xxx.xiaobaitiao.icu/img/icu/202312211243628.jpg"
+        src="../../assets/images/commentBG.jpg"
         alt=""
       />
     </div>

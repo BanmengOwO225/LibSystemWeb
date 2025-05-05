@@ -123,9 +123,8 @@
           </el-form-item>
           <el-form-item label="限制图书馆">
             <el-checkbox-group v-model="editForm.checkList">
-              <el-checkbox label="南图"></el-checkbox>
-              <el-checkbox label="北图"></el-checkbox>
-              <el-checkbox label="教师之家"></el-checkbox>
+              <el-checkbox label="南区"></el-checkbox>
+              <el-checkbox label="北区"></el-checkbox>
             </el-checkbox-group>
           </el-form-item>
           <el-form-item label="逾期每天费用" prop="bookOverdueFee">
@@ -160,9 +159,8 @@
           </el-form-item>
           <el-form-item label="限制图书馆">
             <el-checkbox-group v-model="addForm.checkList">
-              <el-checkbox label="南图"></el-checkbox>
-              <el-checkbox label="北图"></el-checkbox>
-              <el-checkbox label="教师之家"></el-checkbox>
+              <el-checkbox label="南区"></el-checkbox>
+              <el-checkbox label="北区"></el-checkbox>
             </el-checkbox-group>
           </el-form-item>
           <el-form-item label="逾期每天费用" prop="bookOverdueFee">
@@ -217,7 +215,7 @@ export default {
       editForm: {
         bookDays: "",
         bookLimitNumber: "",
-        checkList: ["南图", "北图", "教师之家"],
+        checkList: ["南区", "北区"],
         bookOverdueFee: 0,
         bookLimitLibrary: "",
       },
@@ -240,7 +238,7 @@ export default {
       addForm: {
         bookDays: "",
         bookLimitNumber: "",
-        checkList: ["南图", "北图", "教师之家"],
+        checkList: ["南区", "北区"],
         bookOverdueFee: 0,
         bookLimitLibrary: "",
       },
@@ -298,7 +296,7 @@ export default {
     //监听修改对话框的关闭，一旦对话框关闭，就重置表单，回显数据
     editDialogClosed() {
       this.$refs.editFormRef.resetFields();
-      this.editForm.checkList = ["南图", "北图", "教师之家"];
+      this.editForm.checkList = ["南区", "北区"];
     },
     //删除公告
     async removeUserById(id) {
@@ -334,7 +332,7 @@ export default {
     //监听添加公告对话框的关闭，一旦对话框关闭，就重置表单
     addDialogClosed() {
       this.$refs.addFormRef.resetFields();
-      this.addForm.checkList = ["南图", "北图", "教师之家"];
+      this.addForm.checkList = ["南区", "北区"];
     },
     //当用户点击发送新公告时，让添加对话框的visible改为true
     showAddDialog() {
